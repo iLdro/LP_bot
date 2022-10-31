@@ -1,6 +1,6 @@
 import Lol_dep
 
-class league_player :
+class league_player:
     def __init__(self,username,region):
         self.lol = Lol_dep
         self.username = username
