@@ -10,4 +10,4 @@ class league_player :
         self.me = self.lol.user_info(self.username, self.region)
 
     def live(self):
-        try:
+        self.live = self.lol.isLive(self.username,self.region)
