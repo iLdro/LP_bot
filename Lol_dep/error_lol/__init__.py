@@ -1,3 +1,4 @@
 from riotwatcher import ApiError,riotwatcher
-
-#Create fonction to handle error
+def ErrorHandler(e):
+    if e == 429:
+        print("yes")
