@@ -1,1 +1,3 @@
-__API_KEY = 'RGAPI-0741b221-4c46-4a6d-8165-8d734ea71ed3'
+from riotwatcher import LolWatcher
+__API_KEY = ""
+lol_watcher = LolWatcher(__API_KEY)

@@ -1,4 +1,2 @@
 from riotwatcher import ApiError,riotwatcher
-def ErrorHandler(e):
-    if e == 429:
-        print("yes")
+error_dic = {400 : "Bad request", 401 : "Unauthorized", 403 : "forbidden", 404 : "Data not found",405:"Method not allowed",415:"Unsupported media type",429:"Rate limit exceeded",500:"Internal server error",502:"Bad gatewasy",503:"service unavailable",504:"Gateway timeout"}
